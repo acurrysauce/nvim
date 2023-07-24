@@ -18,6 +18,7 @@ function Hotkeys()
 		print(
 		"---------------------------------\n"..
 		"Commonly Forgotten:\n"..
+        "Clear Highlighting - :noh\n"..
 		"Close/Toggle Intellisense - <C-e>\n"..
 		"Previous Location - <C-o>\n"..
 		"Next Location - <C-i>\n"..
