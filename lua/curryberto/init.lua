@@ -16,7 +16,7 @@ print(
 "1. Install packer (see github)\n"..
 "2. Open packer.lua file using nvim --noplugin\n"..
 "3. :so and then :PackerInstall :PackerSync\n"..
-"4. restart nvim" 
+"4. restart nvim"
 )
 
 
