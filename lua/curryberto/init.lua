@@ -10,7 +10,13 @@ print(
 "Tree-sitter - Code Parsing\n"..
 "Harpoon - Quick File Navigation\n"..
 "Undotree - Traverse Undo History\n"..
-"LSP-zero: - Language Server Protocol\n"
+"LSP-zero: - Language Server Protocol\n"..
+"\n"..
+"To install:\n"..
+"1. Install packer (see github)\n"..
+"2. Open packer.lua file using nvim --noplugin\n"..
+"3. :so and then :PackerInstall :PackerSync\n"..
+"4. restart nvim" 
 )
 
 
