@@ -114,6 +114,11 @@ _G.packer_plugins = {
     path = "/home/curryberto/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
+  ["nvim-dap"] = {
+    loaded = true,
+    path = "/home/curryberto/.local/share/nvim/site/pack/packer/start/nvim-dap",
+    url = "https://github.com/mfussenegger/nvim-dap"
+  },
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "/home/curryberto/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
@@ -148,6 +153,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/curryberto/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
+  },
+  ["vim-autoread"] = {
+    loaded = true,
+    path = "/home/curryberto/.local/share/nvim/site/pack/packer/start/vim-autoread",
+    url = "https://github.com/djoshea/vim-autoread"
   },
   ["vim-fugitive"] = {
     loaded = true,

@@ -6,7 +6,9 @@ lsp.ensure_installed({
 		'tsserver',
 		'eslint',
 		'lua_ls',
-		'rust_analyzer'
+		'rust_analyzer',
+        'bashls',
+        'pyright',
 })
 
 lsp.configure('lua_ls', {
