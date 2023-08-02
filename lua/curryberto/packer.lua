@@ -15,25 +15,34 @@ return require("packer").startup(function(use)
 	use({ "ThePrimeagen/harpoon" })
 	use({ "mbbill/undotree" })
 	use({ "tpope/vim-fugitive" })
-	use({
-		"VonHeikemen/lsp-zero.nvim",
-		branch = "v2.x",
-		requires = {
-			-- LSP Support
-			{ "neovim/nvim-lspconfig" }, -- Required
-			{ -- Optional
-				"williamboman/mason.nvim",
-				run = function()
-					pcall(vim.api.nvim_command, "MasonUpdate")
-				end,
-			},
-			{ "williamboman/mason-lspconfig.nvim" }, -- Optional
-			-- Autocompletion
-			{ "hrsh7th/nvim-cmp" }, -- Required
-			{ "hrsh7th/cmp-nvim-lsp" }, -- Required
-			{ "L3MON4D3/LuaSnip" }, -- Required
-		},
-	})
-	use({ "mfussenegger/nvim-dap" })
 	use({ "djoshea/vim-autoread" })
+	--use({
+	--	"VonHeikemen/lsp-zero.nvim",
+	--	branch = "v2.x",
+	--	requires = {
+	--		-- LSP Support
+	--		{ "neovim/nvim-lspconfig" }, -- Required
+	--		{ -- Optional
+	--			"williamboman/mason.nvim",
+	--			run = function()
+	--				pcall(vim.api.nvim_command, "MasonUpdate")
+	--			end,
+	--		},
+	--		{ "williamboman/mason-lspconfig.nvim" }, -- Optional
+	--		-- Autocompletion
+	--		{ "hrsh7th/nvim-cmp" }, -- Required
+	--		{ "hrsh7th/cmp-nvim-lsp" }, -- Required
+	--		{ "L3MON4D3/LuaSnip" }, -- Required
+	--	},
+	--})
+    use {
+        'rcarriga/nvim-dap-ui',
+        requires = { "mfussenegger/nvim-dap" }
+    }
+    use({
+        "williamboman/mason.nvim",
+        "jose-elias-alvarez/null-ls.nvim",
+        "jay-babu/mason-null-ls.nvim",
+        "jay-babu/mason-nvim-dap.nvim",
+    })
 end)
