@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "/home/curryberto/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/ThePrimeagen/harpoon"
   },
+  ["mason-lspconfig.nvim"] = {
+    loaded = true,
+    path = "/home/curryberto/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
+    url = "https://github.com/williamboman/mason-lspconfig.nvim"
+  },
   ["mason-null-ls.nvim"] = {
     loaded = true,
     path = "/home/curryberto/.local/share/nvim/site/pack/packer/start/mason-null-ls.nvim",
@@ -113,6 +118,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/curryberto/.local/share/nvim/site/pack/packer/start/nvim-dap-ui",
     url = "https://github.com/rcarriga/nvim-dap-ui"
+  },
+  ["nvim-lspconfig"] = {
+    loaded = true,
+    path = "/home/curryberto/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+    url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["nvim-treesitter"] = {
     loaded = true,

@@ -20,8 +20,15 @@ print(
 		.. "1. Install packer (see github)\n"
 		.. "2. Open packer.lua file using nvim --noplugin\n"
 		.. "3. Run :so and then :PackerInstall :PackerSync\n"
-		.. "4. Restart nvim"
+		.. "4. Restart nvim\n"
 )
+print("  \n")
+print(
+	"FAQ:\n"
+		.. "Q. <leader>ps isn't working (I can't search) \n"
+        .. "A. install ripgrep\n"
+)
+print("  \n")
 
 function Hotkeys()
 	print(
