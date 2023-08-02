@@ -13,6 +13,8 @@ print(
 		.. "LSP-zero...........Language Server Protocol\n"
 		.. "Vim-Autoread.......Autoreload Modified Files\n"
         .. "Nvim-DAP...........Debugger\n"
+        .. "Nvim-DAP-UI........Debugger UI\n"
+        .. "Mason..............DAP/LSP/Etc Package Manager\n"
 )
 print("  \n")
 print(
@@ -26,7 +28,10 @@ print("  \n")
 print(
 	"FAQ:\n"
 		.. "Q. <leader>ps isn't working (I can't search) \n"
-        .. "A. install ripgrep\n"
+        .. "A. Install ripgrep\n"
+        .. " \n"
+        .. "Q. I can't copy or paste from system clipboard (\"+y \"+p \"*y \"*p don't work.) \n"
+        .. "A. Install Xclip (and maybe gvim) \n"
 )
 print("  \n")
 
